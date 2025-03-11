@@ -12,12 +12,12 @@ interface Data {
 
 export const data: Data[] = [
   {
-    title: 'Easy Accessable',
+    title: 'Easy Registration',
     description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
     icon: <ArtTrackIcon />,
   },
   {
-    title: 'More Affordable Cost',
+    title: 'Reasonable Cost',
     description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
     icon: <AttachMoneyIcon />,
   },
@@ -27,7 +27,7 @@ export const data: Data[] = [
     icon: <LocalLibraryIcon />,
   },
   {
-    title: 'Consultation With Mentor',
+    title: 'Project Consultation',
     description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
     icon: <ContactSupportIcon />,
   },

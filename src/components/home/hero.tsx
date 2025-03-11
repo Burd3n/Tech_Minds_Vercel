@@ -25,10 +25,6 @@ const exps: Array<Exp> = [
     label: 'Quality Course',
     value: '20+',
   },
-  {
-    label: 'Experience Mentors',
-    value: '10+',
-  },
 ]
 
 const ExpItem: FC<ExpItemProps> = ({ item }) => {
@@ -149,9 +145,6 @@ const HomeHero: FC = () => {
                   </StyledButton>
                 </ScrollLink>
                 <ScrollLink to="video-section" spy={true} smooth={true} offset={0} duration={350}>
-                  <StyledButton color="primary" size="large" variant="outlined" startIcon={<PlayArrowIcon />}>
-                    Watch Video
-                  </StyledButton>
                 </ScrollLink>
               </Box>
             </Box>
