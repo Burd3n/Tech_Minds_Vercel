@@ -21,11 +21,11 @@ const Footer: FC = () => {
               <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 2 }}>
                 Tech Minds is an online learning platform.
               </Typography>
-              <FooterSocialLinks />
             </Box>
           </Grid>
           <Grid item xs={12} md={7}>
             <FooterNavigation />
+              <FooterSocialLinks />
           </Grid>
         </Grid>
       </Container>

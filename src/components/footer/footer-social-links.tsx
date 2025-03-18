@@ -10,19 +10,19 @@ export const socialLinks: SocialLink[] = [
     icon: '/images/icons/instagram.svg',
   },
   {
-    name: 'YouTube',
+    name: 'Facebook',
     link: '#',
-    icon: '/images/icons/youtube.svg',
+    icon: '/images/icons/social-facebook.svg',
   },
   {
-    name: 'Twitter',
+    name: 'Whatsapp',
     link: '#',
-    icon: '/images/icons/twitter.svg',
+    icon: '/images/icons/baseline-whatsapp.svg',
   },
   {
-    name: 'Github',
-    link: 'https://github.com/Burd3n/Tech_Minds_Vercel',
-    icon: '/images/icons/github.svg',
+    name: 'Email',
+    link: 'techminds.sg@gmail.com',
+    icon: '/images/icons/gmail.svg',
   },
 ]
 
