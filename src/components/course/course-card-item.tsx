@@ -50,9 +50,8 @@ const CourseCardItem: FC<Props> = ({ item }) => {
             {item.title}
           </Typography>
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
-            <Rating name="rating-course" value={item.rating} max={5} sx={{ color: '#ffce31', mr: 1 }} readOnly />
             <Typography component="span" variant="h5">
-              ({item.ratingCount})
+              {item.format}
             </Typography>
           </Box>
         </Box>
@@ -63,12 +62,6 @@ const CourseCardItem: FC<Props> = ({ item }) => {
             </Typography>
             <Typography variant="h6">/ course</Typography>
           </Box>
-          <IconButton
-            color="primary"
-            sx={{ '&:hover': { backgroundColor: 'primary.main', color: 'primary.contrastText' } }}
-          >
-            <ArrowForward />
-          </IconButton>
         </Box>
       </Box>
     </Box>
