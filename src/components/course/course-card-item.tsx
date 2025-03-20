@@ -58,9 +58,17 @@ const CourseCardItem: FC<Props> = ({ item }) => {
         <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
             <Typography variant="h5" color="primary.main">
-              {'$' + item.price}
+              $1000
             </Typography>
             <Typography variant="h6">/ course</Typography>
+          </Box>
+        </Box>
+        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+          <Box sx={{ display: 'flex', alignItems: 'center' }}>
+            <Typography variant="h5" color="primary.main">
+              {'$' + item.price}
+            </Typography>
+            <Typography variant="h6">/ session</Typography>
           </Box>
         </Box>
       </Box>
