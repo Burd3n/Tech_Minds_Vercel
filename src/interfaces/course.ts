@@ -3,6 +3,7 @@ export interface Course {
   title: string
   cover: string
   format: string
-  price: number
+  sessionPrice: number
+  coursePrice: number
   category: string
 }

@@ -6,7 +6,8 @@ export const data: Array<Course> = [
     cover: '/images/courses/a9e7b27a0c5e986a22416d79e2e9dba9.jpg',
     title: 'Python',
     format: 'online/ physical',
-    price: 25,
+    sessionPrice: 25,
+    coursePrice: 100,
     category: 'Beginner',
   },
   {
@@ -14,7 +15,8 @@ export const data: Array<Course> = [
     cover: '/images/courses/alvaro-reyes-qWwpHwip31M-unsplash.jpg',
     title: 'Scratch',
     format: 'online',
-    price: 20,
+    sessionPrice: 20,
+    coursePrice: 110,
     category: 'Intermediate',
   },
   {
@@ -22,7 +24,8 @@ export const data: Array<Course> = [
     cover: '/images/courses/christopher-gower-m_HRfLhgABo-unsplash.jpg',
     title: 'Scratch Jr',
     format: 'online',
-    price: 30,
+    sessionPrice: 30,
+    coursePrice: 120,
     category: 'Beginner',
   },
   {
@@ -30,7 +33,8 @@ export const data: Array<Course> = [
     cover: '/images/courses/true-agency-o4UhdLv5jbQ-unsplash.jpg',
     title: 'Project Consultation',
     format: 'online/ physical',
-    price: 30,
+    sessionPrice: 30,
+    coursePrice: 130,
     category: 'Intermediate',
   },
 ]
