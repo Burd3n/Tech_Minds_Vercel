@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography'
 import { FooterNavigation } from '@/components/footer'
 
 const Footer: FC = () => {
-  return (
+  return (      
     <Box
       component="footer"
       sx={{ backgroundColor: 'primary.main', py: { xs: 6, md: 10 }, color: 'primary.contrastText' }}
@@ -15,10 +15,10 @@ const Footer: FC = () => {
         <Grid container spacing={1}>
           <Grid item xs={12} md={5}>
             <Box sx={{ width: { xs: '100%', md: 360 }, mb: { xs: 3, md: 0 } }}>
-              <Typography component="h1" variant="h1" sx={{ mb: 2 }}>
+              <Typography component="h2" variant="h2" sx={{ mb: 2 }}>
                 Tech Minds
               </Typography>
-              <Typography variant="body1" sx={{ letterSpacing: 1, mb: 2 }}>
+              <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 2 }}>
                 Tech Minds is an online learning platform.
               </Typography>
             </Box>
