@@ -21,7 +21,7 @@ export const socialLinks: SocialLink[] = [
   },
   {
     name: 'Email',
-    link: 'techminds.sg@gmail.com',
+    link: 'https://mail.google.com/mail/?view=cm&fs=1&to=techminds.sg@gmail.com&su=ENQUIRY&body=BODY&',
     icon: '/images/icons/gmail.svg',
   },
 ]
@@ -44,7 +44,7 @@ const SocialLinkItem: FC<SocialLinkItemProps> = ({ item }) => (
       sx={{
         lineHeight: 0,
         display: 'flex',
-        alignItems: 'center',
+        alignItems: 'left',
         justifyContent: 'center',
         width: 36,
         height: 36,
