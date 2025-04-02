@@ -4,14 +4,25 @@ import Box from '@mui/material/Box'
 // import Rating from '@mui/material/Rating'
 import Typography from '@mui/material/Typography'
 import IconButton, { iconButtonClasses } from '@mui/material/IconButton'
-// import ArrowForward from '@mui/icons-material/ArrowForward'
+import ArrowForward from '@mui/icons-material/ArrowForward'
 import { Course } from '@/interfaces/course'
+import Modal from '@mui/material/Modal';
 
 interface Props {
   item: Course
 }
 
+const style = {
+  position: 'absolute',
+  top: '50%',
+  left: '50%',
+  transform: 'translate(-50%, -50%)',
+};
+
 const CourseCardItem: FC<Props> = ({ item }) => {
+    const [open, setOpen] = React.useState(false);
+    const handleOpen = () => setOpen(true);
+    const handleClose = () => setOpen(false);
   return (
     <Box
       sx={{
@@ -70,6 +81,20 @@ const CourseCardItem: FC<Props> = ({ item }) => {
             </Typography>
             <Typography variant="h6">/ session</Typography>
           </Box>
+          <IconButton
+          color="primary" 
+          sx={{ '&:hover': { backgroundColor: 'primary.main', color: 'primary.contrastText' } }}
+          onClick={handleOpen}
+          >
+            <ArrowForward />
+        </IconButton>
+        <Modal
+        open={open}
+        onClose={handleClose}>
+        <Box sx={style}>
+            <img src={item.info}></img>
+        </Box>
+        </Modal>
         </Box>
       </Box>
     </Box>
