@@ -3,7 +3,7 @@ import Box from '@mui/material/Box'
 import Grid from '@mui/material/Grid'
 import Container from '@mui/material/Container'
 import Typography from '@mui/material/Typography'
-import { FooterNavigation, FooterSocialLinks } from '@/components/footer'
+import { FooterNavigation } from '@/components/footer'
 
 const Footer: FC = () => {
   return (
@@ -25,7 +25,6 @@ const Footer: FC = () => {
           </Grid>
           <Grid item xs={12} md={7}>
             <FooterNavigation />
-              <FooterSocialLinks />
           </Grid>
         </Grid>
       </Container>
