@@ -15,10 +15,12 @@ const Footer: FC = () => {
         <Grid container spacing={1}>
           <Grid item xs={12} md={5}>
             <Box sx={{ width: { xs: '100%', md: 360 }, mb: { xs: 3, md: 0 } }}>
-                <img src="/Tech_Minds_Logo_1.jpg" alt="Footer Logo" height="150" width="170" />
-                <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 2 }}>
-                    Tech Minds is an online learning platform.
-                </Typography>
+            <Typography component="h2" variant="h2" sx={{ mb: 2 }}>
+                Tech Minds
+            </Typography>
+            <Typography variant="subtitle1" sx={{ letterSpacing: 1, mb: 2 }}>
+                Tech Minds is an online learning platform.
+            </Typography>
             </Box>
           </Grid>
           <Grid item xs={12} md={7}>
