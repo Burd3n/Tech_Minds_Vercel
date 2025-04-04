@@ -104,7 +104,7 @@ const HomeHero: FC = () => {
               sx={{
                 position: 'absolute',
                 bottom: 30,
-                left: { xs: 0, md: -150 },
+                left: { xs: 0, md: -200 },
                 boxShadow: 1,
                 borderRadius: 3,
                 px: 2,
@@ -144,7 +144,7 @@ const HomeHero: FC = () => {
               </Box>
             </Box>
             <Box sx={{ lineHeight: 0 }}>
-              <Image src="/images/home-hero.jpg" width={775} height={787} alt="Hero img" />
+              <Image src="/images/Codey_copy.jpg" width={775} height={787} alt="Hero img" />
             </Box>
           </Grid>
         </Grid>
