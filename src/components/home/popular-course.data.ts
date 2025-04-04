@@ -23,7 +23,7 @@ export const data: Array<Course> = [
   },
   {
     id: 3,
-    cover: '/images/courses/scratchjr.png',
+    cover: '/images/courses/scratchjr_adjusted.png',
     title: 'Scratch Jr',
     info: '/images/courses/popup/scratchjr.jpg',
     format: 'online',
