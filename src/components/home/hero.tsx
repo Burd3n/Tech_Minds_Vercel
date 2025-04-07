@@ -39,7 +39,6 @@ const HomeHero: FC = () => {
                     component="mark"
                     sx={{
                       position: 'relative',
-                      color: 'primary.main',
                       fontSize: 'inherit',
                       fontWeight: 'inherit',
                       backgroundColor: 'unset',
@@ -58,7 +57,24 @@ const HomeHero: FC = () => {
                       {/* eslint-disable-next-line */}
                     </Box>
                   </Typography>
-                  Code.{' '}
+                  <Typography
+                    component="span"
+                    sx={{
+                      fontSize: 'inherit',
+                      fontWeight: 'inherit',
+                      position: 'relative',
+                      color: 'primary.main',
+                      '& svg': {
+                        position: 'absolute',
+                        top: -16,
+                        right: -21,
+                        width: { xs: 22, md: 30 },
+                        height: 'auto',
+                      },
+                    }}
+                  >
+                  Code.
+                  </Typography>{' '}
                   <Typography
                     component="span"
                     sx={{
@@ -83,7 +99,7 @@ const HomeHero: FC = () => {
               <Box sx={{ mb: 4, width: { xs: '100%', md: '70%' } }}>
                 <Typography sx={{ color: 'text.secondary', lineHeight: 1.6 }}>
                   {
-                    "At Tech Minds, we provide personalized coding courses for kids and expert coding consultation. Whether you're nurturing a young programmer or need guidance on your school projects, we provide tailored solutions to help you secceed. Let's innovate together!"
+                    "At Tech Minds, we provide personalized coding courses for kids and expert coding consultation. Whether you're nurturing a young programmer or need guidance on your school projects, we provide tailored solutions to help you succeed. Let's innovate together!"
                   }
                 </Typography>
               </Box>
