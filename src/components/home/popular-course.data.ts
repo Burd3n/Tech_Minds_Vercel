@@ -3,7 +3,7 @@ import type { Course } from '@/interfaces/course'
 export const data: Array<Course> = [
   {
     id: 1,
-    cover: '/images/courses/python_logo.png',
+    cover: '/images/courses/python_course2.jpg',
     info: '/images/courses/popup/python.jpg',
     title: 'Python',
     format: 'online/ physical',
