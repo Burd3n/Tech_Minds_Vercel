@@ -10,7 +10,6 @@ export const data: Array<Testimonial> = [
       id: 1,
       name: 'Luis Sera',
       professional: 'UI/UX Engineer',
-      photo: '1.jpg',
     },
   },
   {
@@ -22,7 +21,6 @@ export const data: Array<Testimonial> = [
       id: 1,
       name: 'Riski',
       professional: 'Software Engineer',
-      photo: '2.jpg',
     },
   },
   {
