@@ -9,7 +9,6 @@ import IconButton from '@mui/material/IconButton'
 import { styled } from '@mui/material/styles'
 import IconArrowBack from '@mui/icons-material/ArrowBack'
 import IconArrowForward from '@mui/icons-material/ArrowForward'
-
 import { TestimonialItem } from '@/components/testimonial'
 import { data } from './testimonial.data'
 
@@ -114,7 +113,7 @@ const HomeTestimonial: FC = () => {
           </Grid>
           <Grid item xs={12} md={6} sx={{ display: { xs: 'none', md: 'block' } }}>
             <Box sx={{ width: { xs: '100%', md: '90%' } }}>
-              <Image src="/images/testimonial_cover.png" width={1700} height={1500} quality={100} alt="Testimonial img" />
+              <Image src="/images/testimonial_cover.png" width={550} height={450} quality={100} alt="Testimonial img" />
             </Box>
           </Grid>
         </Grid>
