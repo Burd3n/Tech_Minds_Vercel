@@ -25,7 +25,7 @@ export const data: Array<Course> = [
     id: 3,
     cover: '/images/courses/scratchjr_adjusted.png',
     title: 'Scratch Jr',
-    info: '/images/courses/popup/scratchjr.jpg',
+    info: '/images/courses/popup/ScratchJr_info_(800x600px).png',
     format: 'online',
     sessionPrice: 30,
     coursePrice: 120,

@@ -19,7 +19,7 @@ const Footer: FC = () => {
                 Tech Minds
             </Typography>
             <Typography variant="h4" sx={{ letterSpacing: 1, mb: 2 }}>
-                Tech Minds is an online learning platform.
+                Personalized coding classes and programming consultation services.
             </Typography>
             </Box>
           </Grid>
