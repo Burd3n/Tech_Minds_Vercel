@@ -6,6 +6,7 @@ import type { Navigation } from '@/interfaces/navigation'
 import { navigations as headerNavigations } from '@/components/navigation/navigation.data'
 import { FooterSectionTitle } from '@/components/footer'
 import { FooterSocialLinks } from '@/components/footer'
+import Typography from '@mui/material/Typography'
 
 
 const courseMenu: Array<Navigation> = [
@@ -29,9 +30,9 @@ const courseMenu: Array<Navigation> = [
 
 const pageMenu = headerNavigations
 
-const companyMenu: Array<Navigation> = [
-  { label: 'Contact Us', path: '#' },
-]
+//const companyMenu: Array<Navigation> = [
+//  { label: 'Contact us', path: '#' },
+//]
 
 interface NavigationItemProps {
   label: string
@@ -72,9 +73,9 @@ const FooterNavigation: FC = () => {
       </Grid>
       <Grid item xs={12} md={4}>
         <FooterSectionTitle title="About" />
-        {companyMenu.map(({ label, path }, index) => (
-          <NavigationItem key={index + path} label={label} path={path} />
-        ))}
+          <Typography component="h4" variant="h5" sx={{mb: 2}}>
+            Contact us
+          </Typography>
         <FooterSocialLinks />
       </Grid>
     </Grid>
